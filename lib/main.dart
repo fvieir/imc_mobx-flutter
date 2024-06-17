@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:mobx_imc/imc/imc_codegen_page.dart';
+import 'package:mobx_imc/modelo_observado/modelo_observado_page.dart';
+import 'package:mobx_imc/observable_list/observable_list_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const ImcCodegenPage(),
+      home: const ModeloObservadoPage(),
     );
   }
 }
